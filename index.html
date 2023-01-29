@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container gap-[25px] w-full h-[100vh] flex justify-center items-center flex-col">
+        <p class="text-6xl font-bold">counter</p>
+        <span class="text-8xl text-gray-500" id="counter">0</span>
+        <div class="btn-container flex gap-[10px]">
+            <button class="btn increase border-[1px] rounded  border-black p-[10px]">Increase</button>
+            <button class="btn reset border-[1px] rounded  border-black p-[10px]">Reset</button>
+            <button class="btn decrease border-[1px] rounded  border-black p-[10px]">Decrease</button>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
